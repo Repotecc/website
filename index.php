@@ -1,3 +1,4 @@
+
 <!---
 
 Project:  Repotecc Landing Page index.html
@@ -13,19 +14,52 @@ Last change: 17/01/2021
 <html lang="en">
 
 <head>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-GZKPKLFGRH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-GZKPKLFGRH');
+</script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Repotecc it's a tech community. We'll help you get started with creative and innovative skills."/>
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/repotecc app logo.png" />
-    <title>Find Your Way In Tech | Repotecc</title>
+    <meta name="robots" content="index, follow" />
+    <link rel="icon" href="assets/img/repotecc app logo.png" />
+    <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"/><link rel="canonical" href="https://repotecc.com/" />
+    <title>#FindYourWayInTech | Repotecc</title>
+    <link rel="stylesheet" href="assets/plugin/dist/assets/owl.carousel.min.css">
+<link rel="stylesheet" href="assets/plugin/dist/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="assets/css/bootstrap.css">
     <link rel="stylesheet" href="assets/css/bootstrap-icons.css">
+    
     <link rel="stylesheet" href="assets/css/main.css">
+    
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Repotecc",
+  "tagline": "Repotecc it's a tech community. We'll help you get started with creative and innovative skills.",
+  "url": "https://repotecc.com",
+  "logo": "https://repotecc.com/assets/img/repotecc_logo.png",
+  "sameAs": [
+    "https://twitter.com/RepoTecc",
+    "https://facebook.com/repotecc",
+    "https://instagram.com/Repotecc"
+  ]
+}
+</script>
 </head>
 
 <body>
     <nav class="navbar navbar-expand-md fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="index.html">
                 <img alt="repotecc logo" src="assets/img/repotecc_logo.png" class='logo'>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,25 +72,25 @@ Last change: 17/01/2021
                         <a class="nav-link" aria-current="page" href="#why_join_us">Why join us?</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#hire_us">Hire us</a>
+                        <a class="nav-link" href="index.html#hire_us">Hire us</a>
+                    </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="index.html#about_us">About us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#about_us">About us</a>
+                        <a class="nav-link" href="index.html#workshops">Our workshops</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#workshops">Our workshops</a>
+                        <a class="nav-link" href="index.html#partners">Our partners</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#partners">Our partners</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Our team</a>
+                        <a class="nav-link" href="team.html">Our team</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Blog</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#Contact_us">Contact us</a>
+                        <a class="nav-link" href="index.html#Contact_us">Contact us</a>
                     </li>
                 </ul>
             </div>
@@ -72,7 +106,7 @@ Last change: 17/01/2021
                     We'll help you get started with <b>creative</b> and <b>innovative</b> skills. We'll help you get started in tech!
                 </p>
                 <button>
-                    GET STARTED
+                     <a  href="https://forms.gle/XSA4hZBoVsoSToKt6"> GET STARTED</a>
                 </button>
             </div>
             <div class="col-md-8">
@@ -121,7 +155,7 @@ Last change: 17/01/2021
 
                 <div class="center">
                     <button>
-                    JOIN US
+                   <a href="https://forms.gle/XSA4hZBoVsoSToKt6">JOIN US</a>
                 </button>
                 </div>
 
@@ -136,7 +170,7 @@ Last change: 17/01/2021
                     <h1><b>HIRE US</b></h1>
                     <p>We'll match you with the best people for your project.</p>
 
-                    <form action="" method="POST">
+                    <form action="hireusform.php" method="POST">
                         <div class="row">
                             <div class="col-md">
                                 <div class="form-group">
@@ -212,9 +246,8 @@ Last change: 17/01/2021
                         <p>We'll get back to you via your work email after you submit this form.</p>
 
                         <div class="center">
-                            <button type="submit">
-                        SUBMIT
-                    </button>
+                           <input type="submit">
+                        
                         </div>
 
                     </form>
@@ -282,19 +315,19 @@ Last change: 17/01/2021
                     <div class="col-md">
                         <h3><b>Web</b></h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna…
+                            Learn to build a good robust website and become a full stack web developer..…
                         </p>
                     </div>
                     <div class="col-md">
                         <h3><b>Mobile</b></h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna…
+                            Learn to become a Mobile Developer Either An Android Or IOS Developer…
                         </p>
                     </div>
                     <div class="col-md">
                         <h3><b>Cyber security</b></h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna…
+                           Learn to become cyber security expert and protect computers from cyber attacks…
                         </p>
                     </div>
                 </div>
@@ -303,25 +336,25 @@ Last change: 17/01/2021
                     <div class="col-md">
                         <h3><b>Modeling and simulation</b></h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna…
+                            learn to Become a 3d artists…
                         </p>
                     </div>
                     <div class="col-md">
                         <h3><b>UI & UX</b></h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna…
+                            Learn to become a UI&UX designer and also become a graphics designer…
                         </p>
                     </div>
                     <div class="col-md">
                         <h3><b>Animation and motion graphics</b></h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna…
+                            Learn to Become A 3d designers and become a pro Animator…
                         </p>
                     </div>
                 </div>
                 <br>
                 <div class="center">
-                    <a href="">
+                    <a href="team.html">
                         MEET OUR TEAM
                     </a>
                 </div>
@@ -334,31 +367,35 @@ Last change: 17/01/2021
                 <br>
                 <div class="row">
                     <div class="col-lg-12 text-center">
-                        <div class="partners-img">
-                            <div class="single-client">
-                                <a href="#"><img alt="partner/sponsor" class="img-fluid" src="assets/img/partners/Image 2.png"></a>
-                            </div>
-                            <div class="single-client">
-                                <a href="#"><img alt="partner/sponsor" class="img-fluid" src="assets/img/partners/Image 6.png"></a>
-                            </div>
-                            <div class="single-client">
-                                <a href="#"><img alt="partner/sponsor" class="img-fluid" src="assets/img/partners/Image 7.png"></a>
-                            </div>
-                            <div class="single-client">
-                                <a href="#"><img alt="partner/sponsor" class="img-fluid" src="assets/img/partners/Image 8.png"></a>
-                            </div>
-                            <div class="single-client">
-                                <a href="#"><img alt="partner/sponsor" class="img-fluid" src="assets/img/partners/IMG_3813.png"></a>
-                            </div>
-                            <div class="single-client">
-                                <a href="#"><img alt="partner/sponsor" class="img-fluid" src="assets/img/partners/IMG_3816.png"></a>
-                            </div>
-                            <div class="single-client">
-                                <a href="#"><img alt="partner/sponsor" class="img-fluid" src="assets/img/partners/Rectangle 54.png"></a>
-                            </div>
-                            <div class="single-client">
-                                <a href="#"><img alt="partner/sponsor" class="img-fluid" src="assets/img/partners/Rectangle 55.png"></a>
-                            </div>
+                        <div class=" partners-img">
+                            <!--<div class="owl-carousel">-->
+                                <div class="single-client">
+                                <a href="#"><img alt="partner/sponsor" class="img-fluid partner-img" src="assets/img/partners/Image 2.png"></a>
+                                </div>
+                                <div class="single-client">
+                                    <a href="#"><img alt="partner/sponsor" class="img-fluid partner-img" src="assets/img/partners/Image 6.png"></a>
+                                </div>
+                                <div class="single-client">
+                                    <a href="#"><img alt="partner/sponsor" class="img-fluid partner-img" src="assets/img/partners/Image 7.png"></a>
+                                </div>
+                                <div class="single-client">
+                                    <a href="#"><img alt="partner/sponsor" class="img-fluid partner-img" src="assets/img/partners/Image 8.png"></a>
+                                </div>
+                                <div class="single-client">
+                                    <a href="#"><img alt="partner/sponsor" class="img-fluid partner-img" src="assets/img/partners/IMG_3813.png"></a>
+                                </div>
+                                <div class="single-client">
+                                    <a href="#"><img alt="partner/sponsor" class="img-fluid partner-img" src="assets/img/partners/IMG_3816.png"></a>
+                                </div>
+                                <div class="single-client">
+                                    <a href="#"><img alt="partner/sponsor" class="img-fluid partner-img" src="assets/img/partners/Rectangle 54.png"></a>
+                                </div>
+                                <div class="single-client">
+                                    <a href="#"><img alt="partner/sponsor" class="img-fluid partner-img" src="assets/img/partners/Rectangle 55.png"></a>
+                                </div>
+                            <!--</div>-->
+
+                            
                         </div>
                     </div>
                 </div>
@@ -384,7 +421,7 @@ Last change: 17/01/2021
                 <br>
                 <div class="row">
                     <div class="col-lg-12">
-                        <form action="" method="POST">
+                        <form action="contactform.php" method="POST">
                             <div class="row">
                                 <div class="col-md">
                                     <div class="form-group">
@@ -435,9 +472,8 @@ Last change: 17/01/2021
                             <br><br>
 
                             <div class="center">
-                                <button type="submit">
-                            SUBMIT
-                        </button>
+                                <input type="submit">
+                            
                             </div>
 
                         </form>
@@ -462,9 +498,12 @@ Last change: 17/01/2021
             <h1><b>Stay Updated!</b></h1>
             <br>
             <h5>Get our newsletter and updates before anyone else.</h5><br>
-            <form class="center">
-                <input type="email" name="email_subscibe" class="form-control" placeholder="Enter email address" required="">
-                <button type="submit">SUBMIT</button>
+            <form class="center" action="https://repotecc.us7.list-manage.com/subscribe/post?u=34755a911a94a466eb91b92ae&amp;id=ef229d2798" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                <input type="email" name="EMAIL"  id="mce-EMAIL" class="form-control" placeholder="Enter email address" required="">
+                
+                <button type="submit" name="subscribe" id="mc-embedded-subscribe">SUBMIT</button>
+                
+                
             </form>
         </div>
     </section>
@@ -475,36 +514,36 @@ Last change: 17/01/2021
                 <div class="col-md">
                     <h2><b>Repotecc</b></h2>
                     <ul>
-                        <li><a href="#why_join_us">Why join us?</a></li>
-                        <li><a href="#hire_us">Hire us</a></li>
-                        <li><a href="#about_us">About us</a></li>
-                        <li><a href="#workshops">Workshops</a></li>
-                        <li><a href="#partners">Sponsors and partners</a></li>
-                        <li><a href="">Our team members</a></li>
+                        <li><a href="index.html#why_join_us">Why join us?</a></li>
+                        <li><a href="index.html#hire_us">Hire us</a></li>
+                        <li><a href="index.html#about_us">About us</a></li>
+                        <li><a href="index.html#workshops">Workshops</a></li>
+                        <li><a href="index.html#partners">Sponsors and partners</a></li>
+                        <li><a href="team.html">Our team members</a></li>
                         <li><a href="">Blog</a></li>
-                        <li><a href="#Contact_us">Contact us</a></li>
+                        <li><a href="index.html#Contact_us">Contact us</a></li>
                     </ul>
                 </div>
                 <div class="col-md">
                     <h2><b>Join Repotecc</b></h2>
                     <ul>
-                        <li><a href="">Join to get trained/mentored</a></li>
-                        <li><a href="">Join as a mentor</a></li>
-                        <li><a href="">Become a partner</a></li>
+                        <li><a href="https://forms.gle/XSA4hZBoVsoSToKt6">Join to get trained/mentored</a></li>
+                        <li><a href="https://forms.gle/64BhE4vk68XsmXj98">Join as a mentor</a></li>
+                        <li><a href="https://forms.gle/dYs3iQoHvLj6RVaZ6">Become a partner</a></li>
                     </ul>
                 </div>
                 <div class="col-md">
                     <h2><b>Get started</b></h2>
                     <ul>
-                        <li><a href="">Hire us for project development</a></li>
+                        <li><a href="https://forms.gle/fFUwKjR9TT43c5RR8">Hire us for project development</a></li>
                         <li><a href="">Hire us to train people</a></li>
                     </ul>
                 </div>
             </div>
             <br>
             <div class="row">
-                <div class="col-md"><a>Terms of Use</a></div>
-                <div class="col-md"><a>Privacy Policy</a></div>
+                <div class="col-md"><a href="terms.html">Terms of Use</a></div>
+                <div class="col-md"><a href="policy.html">Privacy Policy</a></div>
                 <div class="col-md-8 text-end">
                     Copyright &copy; Repotecc
                     <script>
@@ -515,8 +554,23 @@ Last change: 17/01/2021
         </div>
     </footer>
 
-
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+     <script src="assets/plugin/dist/owl.carousel.min.js"></script>
     <script src="assets/js/bootstrap.js"></script>
+   
+    
+    
+    <script>
+        var owl = $('.owl-carousel');
+owl.owlCarousel({
+    items:3,
+    loop:true,
+    margin:10,
+    autoplay:true,
+    autoplayTimeout:1000,
+    autoplayHoverPause:true
+});
+    </script>
 </body>
 
 </html>
