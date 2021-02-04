@@ -326,3 +326,120 @@ footer a {
     text-decoration: none;
     color: #ffffff;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+    background-color: #fff;
+}
+.card{
+    
+    /* padding: 25px; */
+    height: auto;
+    margin-top: 47px;
+    transform: translateY(100px);
+    animation: moveVertical 0.65s ease forwards;
+    
+}
+.card-content-text{
+    height: 158px;
+    /* width: 11rem; */
+    width: 208px;
+}
+.card:hover{
+    transform: translateY(119px);
+    animation: moveVertical 0.65s ease forwards;
+}
+
+.img-card-top{
+    text-align: center;
+        /* padding: 20px 0 40px; */
+        margin-right: 0;
+        width: 100%;
+        border-radius: 0;
+        border-bottom: 1px solid #eaeaea;
+}
+
+.img-card-top img{
+    width: 151px;
+    border-radius: 50%;
+    height: 158px;
+}
+
+.team-img{
+    height: 182px;
+}
+.team-name{
+    font-style: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    margin-top: 0;
+
+}
+.team-position{
+    font-size: 14px;
+    
+}
+
+.card-body{
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; 
+}
+
+.social-networks {
+    margin-top: 18px;
+}
+
+.social-networks a {
+    display: inline-block;
+    font-size: 18px;
+    width: 48px;
+    height: 48px;
+    line-height: 48px;
+    border-radius: 50%;
+    color: #696969;
+    border: 1px solid #ededed;
+    margin: 10px;
+    text-align: center;
+}
+
+.card-text{
+    font-size: 13px;
+}
+
+@media only screen and (max-width: 479px) {
+    .card-content-text {  
+        width: 238px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .card-content-text {  
+        width: 238px;
+    }
+}
+
+
+/* 
+@media only screen and (max-width: 929px) {
+    .card-content-text {  
+        width: 186px;
+    }
+} */
+
+
+
+button a{
+    color: #fff;
+    text-decoration: none;
+}
