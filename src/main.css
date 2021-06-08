@@ -1,0 +1,349 @@
+/*------------------------------------------------------------------
+Project:  Repotecc Landing Page Main CSS
+Author:  President Raindas
+Date created: 17/01/2021
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+Last edit author: President Raindas
+Last change: 17/01/2021
+-------------------------------------------------------------------*/
+
+@font-face {
+    font-family: montserrat;
+    src: url(./assets/css/montserrat-bold-webfont.woff2);
+}
+
+@font-face {
+    font-family: montserrat;
+    src: url(./assets/css/montserrat-regular-webfont.woff2);
+    font-weight: bold;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    font-family: montserrat;
+    color: #707070;
+}
+
+.logo {
+    width: 150px;
+}
+
+nav {
+    background-color: #ffffff;
+}
+
+.nav-item {
+    padding: 10px;
+}
+
+.nav-link {
+    color: #707070;
+}
+
+.nav-clear-margin {
+    margin-top: 2cm;
+}
+.bi-list{
+    color: #707070;
+}
+.section-1 .col-md-4 {
+    position: relative;
+    top: 150px;
+}
+
+@media only screen and (max-width:768px) {
+    /* for small screens (mobile phones) */
+    .section-1 .col-md-4 {
+        top: 0;
+    }
+}
+
+.section-1 h1 {
+    font-size: 50px;
+    color: #3E3B3B;
+}
+
+.section-1 button {
+    border: 1px solid #00BE83;
+    background-color: #00BE83;
+    color: #ffffff;
+    padding: 15px;
+    font-size: 14px;
+    box-shadow: 2px 2px #d3d3d3;
+}
+
+.why-join-us {
+    border: 1px solid #3E3B3B;
+    background-color: #3E3B3B;
+    border-radius: 53px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.why-join-us .row {
+    padding: 30px;
+    margin-top: 10px;
+}
+
+.why-join-us button {
+    border: 1px solid #F79E61;
+    background-color: #F79E61;
+    color: #ffffff;
+    padding: 15px;
+    font-size: 14px;
+    box-shadow: 2px 2px #d3d3d3;
+    width: 30%;
+}
+
+.hire-us h1 {
+    color: #3E3B3B;
+}
+
+.hire-us img {
+    margin-top: 3cm;
+}
+
+@media only screen and (max-width:768px) {
+    /* for small screens (mobile phones) */
+    .hire-us img {
+        margin-top: 1cm;
+    }
+}
+
+.hire-us input,
+.hire-us select {
+    width: 100%;
+    height: 1.5cm;
+    border: 1px solid #707070;
+}
+
+.hire-us .form-group {
+    margin-top: 20px;
+}
+
+.hire-us button {
+    border: 1px solid #404DC0;
+    background-color: #404DC0;
+    color: #ffffff;
+    padding: 15px;
+    font-size: 14px;
+    box-shadow: 2px 2px #d3d3d3;
+    width: 25%;
+    position: relative;
+    width: 30%;
+}
+
+.about-us h1 {
+    color: #3E3B3B;
+}
+
+.about-us h5 {
+    color: #6C63FF;
+}
+
+.about-us .col {
+    text-align: center;
+}
+
+.workshops h1 {
+    text-align: center;
+}
+
+.workshops h1,
+.workshops h3 {
+    color: #3E3B3B;
+}
+
+.workshops a {
+    border: 1px solid #F34C4E;
+    background-color: #F34C4E;
+    color: #ffffff;
+    padding: 15px;
+    font-size: 14px;
+    box-shadow: 2px 2px #d3d3d3;
+    width: 20%;
+    text-align: center;
+    text-decoration: none;
+}
+
+@media only screen and (max-width:768px) {
+    /* for small screens (mobile phones) */
+    .workshops a {
+        width: 100%;
+    }
+}
+
+.partners h1 {
+    color: #3E3B3B;
+    text-align: center;
+}
+
+.partners-img {
+    width: 100%;
+    height: auto;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    margin: 0 auto;
+    white-space: nowrap;
+}
+
+.single-client {
+    padding: 0 10px;
+    display: inline;
+}
+
+.single-client img {
+    width: auto;
+}
+
+.contact-us h1,
+.contact-us h4 {
+    color: #3E3B3B;
+    text-align: center;
+}
+
+.contact-media {
+    border: 1px #F5F5F5 solid;
+    background-color: #F5F5F5;
+}
+
+.contact-media ul {
+    list-style-type: none;
+    margin: 20px;
+}
+
+.contact-media li {
+    display: inline;
+    padding: 20px;
+    font-size: 14pt;
+}
+
+@media only screen and (max-width:768px) {
+    /* for small screens (mobile phones) */
+    .contact-media li {
+        display: list-item;
+        padding: 20px;
+        font-size: 14pt;
+    }
+}
+
+.contact-media a {
+    text-decoration: none;
+    color: #3E3B3B;
+}
+
+.contact-media span {
+    color: #E3832F;
+}
+
+.contact-us input {
+    width: 100%;
+    height: 1.5cm;
+    border: 1px solid #707070;
+}
+
+.contact-us textarea {
+    width: 100%;
+    height: 6cm;
+    border: 1px solid #707070;
+}
+
+.contact-us .form-group {
+    margin-top: 20px;
+}
+
+.contact-us button {
+    border: 1px solid #404DC0;
+    background-color: #404DC0;
+    color: #ffffff;
+    padding: 15px;
+    font-size: 14px;
+    box-shadow: 2px 2px #d3d3d3;
+    width: 25%;
+    position: relative;
+    width: 30%;
+}
+
+
+#email_subscribe{
+    background-image: url(./assets/img/undraw_code_thinking_1jeh.png);
+    background-size: cover;
+}
+.email-sub-circle {
+    border: 1px solid #00BE83;
+    background-color: #00BE83;
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+}
+
+.email-sub-circle span {
+    color: #ffffff;
+    margin-top: 30%;
+    font-size: 30px;
+}
+
+#email_subscribe {
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+
+#email_subscribe h1,
+#email_subscribe h5 {
+    color: #00BE83;
+    text-align: center;
+}
+
+#email_subscribe input {
+    border: 1px solid #00BE83;
+    background-color: transparent;
+    width: 50%;
+    height: 1.4cm;
+    box-shadow: 4px 2px #d3d3d3;
+}
+
+#email_subscribe button {
+    border: 1px solid #00BE83;
+    background-color: #00BE83;
+    color: #ffffff;
+    padding: 15px;
+    font-size: 14px;
+    box-shadow: 2px 2px #d3d3d3;
+    width: 25%;
+}
+
+footer {
+    background-color: #8E8E8E;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #ffffff;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+.footer-title{
+    font-size: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
