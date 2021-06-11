@@ -100,7 +100,7 @@ class Contactusform extends React.Component{
                 <br /> <br />
 
                 <div  className="center">
-                    <input name="contactus" type="submit" />
+                    <input name="contactus" value="submit disabled" type="submit" />
                 
                 </div>
 
