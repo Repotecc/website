@@ -131,7 +131,7 @@ class Hireusform extends React.Component{
             <p>We'll get back to you via your work email after you submit this form.</p>
 
             <div  className="center">
-                <input name="hireus" type="submit" />
+                <input name="hireus" value="submit disabled" type="submit" />
             
             </div>
 
