@@ -8,12 +8,12 @@ import "swiper/swiper.min.css";
 import "swiper/components/pagination/pagination.min.css";
 
 
-import swag1 from "./../../assets/img/swag/Black face mask.JPG";
-import swag2 from "./../../src/assets/img/swag/Black hoodie 2.JPG";
-import swag3 from "./../../src/assets/img/swag/Black shirt.JPG";
-import swag4 from "./../../src/assets/img/swag/Grey shirt.JPG";
-import swag5 from "./../../src/assets/img/swag/White hoodie.JPG";
-import swag6 from "./../../src/assets/img/swag/White shirt.JPG";
+import swag1 from "./../../assets/img/swag/Black face mask.jpg";
+import swag2 from "./../../src/assets/img/swag/Black hoodie 2.jpg";
+import swag3 from "./../../src/assets/img/swag/Black shirt.jpg";
+import swag4 from "./../../src/assets/img/swag/Grey shirt.jpg";
+import swag5 from "./../../src/assets/img/swag/White hoodie.jpg";
+import swag6 from "./../../src/assets/img/swag/White shirt.jpg";
 
 
 
