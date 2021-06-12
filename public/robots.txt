@@ -1,3 +1,9 @@
-# https://www.robotstxt.org/robotstxt.html
+# Group 1
+User-agent: Googlebot
+Disallow: /nogooglebot/
+
+# Group 2
 User-agent: *
-allow:
+Allow: /
+
+Sitemap: http://www.repotecc.com/sitemap.xml
