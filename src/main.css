@@ -8,16 +8,10 @@ Last edit author: President Raindas
 Last change: 17/01/2021
 -------------------------------------------------------------------*/
 
-@font-face {
-    font-family: montserrat;
-    src: url(./assets/css/montserrat-bold-webfont.woff2);
+body{
+    font-family: 'Montserrat', sans-serif;
 }
 
-@font-face {
-    font-family: montserrat;
-    src: url(./assets/css/montserrat-regular-webfont.woff2);
-    font-weight: bold;
-}
 
 .center {
     display: flex;
