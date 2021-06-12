@@ -9,11 +9,11 @@ import "swiper/components/pagination/pagination.min.css";
 
 
 import swag1 from "./../../assets/img/swag/Black face mask.jpg";
-import swag2 from "./../../src/assets/img/swag/Black hoodie 2.jpg";
-import swag3 from "./../../src/assets/img/swag/Black shirt.jpg";
-import swag4 from "./../../src/assets/img/swag/Grey shirt.jpg";
-import swag5 from "./../../src/assets/img/swag/White hoodie.jpg";
-import swag6 from "./../../src/assets/img/swag/White shirt.jpg";
+import swag2 from "./../../assets/img/swag/Black hoodie 2.jpg";
+import swag3 from "./../../assets/img/swag/Black shirt.jpg";
+import swag4 from "./../../assets/img/swag/Grey shirt.jpg";
+import swag5 from "./../../assets/img/swag/White hoodie.jpg";
+import swag6 from "./../../assets/img/swag/White shirt.jpg";
 
 
 
