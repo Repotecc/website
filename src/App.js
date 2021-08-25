@@ -56,6 +56,9 @@ function App() {
                     <Route path="/team">
                         <Team />
                     </Route>
+                    <Route path="*">
+                      <Shop />
+                    </Route>
                 </Switch>
             </main>
             <Footer />
