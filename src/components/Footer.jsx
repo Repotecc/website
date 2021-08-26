@@ -42,10 +42,7 @@ function Footer() {
                     <div className="col-md"><a href="terms.html">Terms of Use</a></div>
                     <div className="col-md"><a href="policy.html">Privacy Policy</a></div>
                     <div className="col-md-8 text-end">
-                        Copyright &copy; Repotecc
-                        <script>
-                            document.write(new Date().getFullYear());
-                        </script>
+                        Copyright &copy; Repotecc 2021
                     </div>
                 </div>
             </div>
