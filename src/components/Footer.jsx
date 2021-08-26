@@ -34,6 +34,7 @@ function Footer() {
                         <ul>
                             <li><a href="https://forms.gle/fFUwKjR9TT43c5RR8">Hire us for project development</a></li>
                             <li><a href="/#">Hire us to train people</a></li>
+                            <li><a href="https://bit.ly/repoteccsupport">Support Us</a></li>
                         </ul>
                     </div>
                 </div>
