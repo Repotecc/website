@@ -56,9 +56,7 @@ function App() {
                     <Route path="/team">
                         <Team />
                     </Route>
-                    <Route path="*">
-                      <Shop />
-                    </Route>
+                    <Route component={Shop} />
                 </Switch>
             </main>
             <Footer />
