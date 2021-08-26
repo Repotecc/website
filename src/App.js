@@ -27,6 +27,7 @@ import Workshops from './components/Home/Workshops';
 import Partners from './components/Home/Partners';
 import Contactus from './components/Home/Contactus';
 import Footer from './components/Footer';
+import PageNotFound from './components/404-page';
 import Subscriber from './components/Home/Subcriber';
 
 //  team page
@@ -56,7 +57,7 @@ function App() {
                     <Route exact path="/team">
                         <Team />
                     </Route>
-                    <Route component={Shop} />
+                    <Route component={PageNotFound} />
                 </Switch>
             </main>
             <Footer />
