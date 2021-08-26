@@ -22,20 +22,20 @@ function Navbar() {
                             <Link className="nav-link"   aria-current="page" to="#why_join_us">Why join us?</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link"   href="#hire_us">Hire us</a>
+                            <a className="nav-link"   href="https://repotecc.com/#hire_us">Hire us</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link"   href="#about_us">About us</a>
+                            <a className="nav-link"   href="https://repotecc.com/#about_us">About us</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link"   href="#workshops">Our workshops</a>
+                            <a className="nav-link"   href="https://repotecc.com/#workshops">Our workshops</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link"   href="#partners">Our partners</a>
+                            <a className="nav-link"   href="https://repotecc.com/#partners">Our partners</a>
                         </li>
                         <li className="nav-item">
         
-                            <Link className="nav-link"   to="/team">Our team</Link>
+                            <Link className="nav-link"   to="https://repotecc.com/team">Our team</Link>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link"   href="https://paystack.shop/repotecc">Shop</a>
