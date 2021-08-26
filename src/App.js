@@ -41,7 +41,7 @@ function App() {
             <Navbar />
             <main  className="container">
                 <Switch>    
-                    <Route path="/" exact>
+                    <Route exact path="/">
                         <Mainone />
                         <Whyjoinus />
                         <Hireus />
@@ -53,7 +53,7 @@ function App() {
                         <Subscriber />
                     </Route>
 
-                    <Route path="/team">
+                    <Route exact path="/team">
                         <Team />
                     </Route>
                     <Route component={Shop} />
