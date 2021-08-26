@@ -12,9 +12,7 @@ import React from 'react';
 import './Team.css';
 import Person from './Person';
 
- componentDidMount() {
-        window.scrollTo(0, 0);
-    }
+
 
 function Team() {
   
