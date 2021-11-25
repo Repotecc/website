@@ -1,6 +1,4 @@
-// import logo from '/../../assets/img/repotecc_logo.png';
-// import { Link } from 'react-router-dom';
-//import './App.css';
+import Link from 'next/link'
 
 function Footer() {
   return (
@@ -16,7 +14,11 @@ function Footer() {
                             <li><a href="#about_us">About us</a></li>
                             <li><a href="#workshops">Workshops</a></li>
                             <li><a href="#partners">Sponsors and partners</a></li>
-                            <li><a href="/team">Our team members</a></li>
+                            <li>
+                                <Link  href="/team">
+                                    <a>Our team members</a>
+                                </Link>
+                            </li>
                             <li><a href="https://paystack.shop/repotecc">Shop</a></li>
                             <li><a href="index.html#Contact_us">Contact us</a></li>
                         </ul>
