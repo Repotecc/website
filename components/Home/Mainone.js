@@ -12,7 +12,7 @@ function Mainone() {
             <div  className="col-md-4">
                 <h1><b>Find Your  <br /> Way In Tech</b></h1>
                 <p>
-                    We'll help you get started with <b>creative</b> and <b>innovative</b> skills. We'll help you get started in tech!
+                    We&apos;ll help you get started with <b>creative</b> and <b>innovative</b> skills. We&apos;ll help you get started in tech!
                 </p>
                 <button>
                      <Link target="_blank" rel="noopener noreferrer"  href="https://forms.gle/XSA4hZBoVsoSToKt6"> 

@@ -15,7 +15,7 @@ function Hireus() {
               <div  className="row hire-us">
                   <div  className="col-md">
                       <h1><b>HIRE US</b></h1>
-                      <p>We'll match you with the best people for your project.</p>
+                      <p>We&apos;ll match you with the best people for your project.</p>
   
                       <Hireusform />
                   </div>

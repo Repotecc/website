@@ -209,7 +209,7 @@ function Person() {
                                 <h3 className="card-title text-center  team-name" key={person.id}>{person.name}</h3>
                                 <h5 className="card-title text-center text-muted team-position">{person.position}</h5>
                                 
-                                <p className="card-text">"{person.quote}."</p>
+                                <p className="card-text">&quot;{person.quote}.&quot;</p>
                             </div>
                             <div className="social-networks">
                                 <div className="inner">

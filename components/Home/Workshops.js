@@ -1,6 +1,7 @@
 // import image1 from './../assets/img/59904.png';
 
 // import './App.css';
+import Link from 'next/link';
 
 function Workshops() {
     return (
@@ -60,9 +61,11 @@ function Workshops() {
                   </div>
                    <br />
                   <div  className="center">
-                      <a href="/team">
-                          MEET OUR TEAM
-                      </a>
+                        <Link href="/team">
+                            <a>  
+                                MEET OUR TEAM
+                            </a>
+                        </Link>
                   </div>
               </div>
           </section>

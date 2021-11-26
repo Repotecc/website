@@ -32,28 +32,28 @@ function Partners() {
                           <div  className=" partners-img">
                               {/* <!--<div  className="owl-carousel">--> */}
                                   <div  className="single-client">
-                                  <a href="/#"><Image alt="partner/sponsor"  className="img-fluid partner-img" src={partnerlogo1} placeholder="blur" /></a>
+                                  <a href="#"><Image alt="partner/sponsor"  className="img-fluid partner-img" src={partnerlogo1} placeholder="blur" /></a>
                                   </div>
                                   <div  className="single-client">
-                                      <a href="/#"><Image alt="partner/sponsor"  className="img-fluid partner-img" src={partnerlogo2} placeholder="blur"/></a>
+                                      <a href="#"><Image alt="partner/sponsor"  className="img-fluid partner-img" src={partnerlogo2} placeholder="blur"/></a>
                                   </div>
                                   <div  className="single-client">
-                                      <a href="/#"><Image alt="partner/sponsor"  className="img-fluid partner-img" src={partnerlogo3}  placeholder="blur"/></a>
+                                      <a href="#"><Image alt="partner/sponsor"  className="img-fluid partner-img" src={partnerlogo3}  placeholder="blur"/></a>
                                   </div>
                                   <div  className="single-client">
-                                      <a href="/#"><Image alt="partner/sponsor"  className="img-fluid partner-img" src={partnerlogo4} placeholder="blur"/></a>
+                                      <a href="#"><Image alt="partner/sponsor"  className="img-fluid partner-img" src={partnerlogo4} placeholder="blur"/></a>
                                   </div>
                                   <div  className="single-client">
-                                      <a href="/#"><Image alt="partner/sponsor"  className="img-fluid partner-img" src={partnerlogo5} placeholder="blur"/></a>
+                                      <a href="#"><Image alt="partner/sponsor"  className="img-fluid partner-img" src={partnerlogo5} placeholder="blur"/></a>
                                   </div>
                                   <div  className="single-client">
-                                      <a href="/#"><Image alt="partner/sponsor"  className="img-fluid partner-img" src={partnerlogo6} placeholder="blur"/></a>
+                                      <a href="#"><Image alt="partner/sponsor"  className="img-fluid partner-img" src={partnerlogo6} placeholder="blur"/></a>
                                   </div>
                                   <div  className="single-client">
-                                      <a href="/#"><Image alt="partner/sponsor"  className="img-fluid partner-img" src={partnerlogo7} placeholder="blur"/></a>
+                                      <a href="#"><Image alt="partner/sponsor"  className="img-fluid partner-img" src={partnerlogo7} placeholder="blur"/></a>
                                   </div>
                                   <div  className="single-client">
-                                      <a href="/#"><Image alt="partner/sponsor"  className="img-fluid partner-img" src={partnerlogo8} placeholder="blur"/></a>
+                                      <a href="#"><Image alt="partner/sponsor"  className="img-fluid partner-img" src={partnerlogo8} placeholder="blur"/></a>
                                   </div>
                               {/* <!--</div>--> */}
   
