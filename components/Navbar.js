@@ -55,7 +55,7 @@ function Navbar() {
                             <Link   href="/#Contact_us"><a className="nav-link">Contact us</a></Link>
                         </li>
                     </ul>
-                    <div class="d-flex">
+                    <div className="d-flex">
                     
                         <a target="_blank" rel="noopener noreferrer" className="btn btn-outline-success" href="https://paystack.com/pay/repotecc">
                             DONATE
