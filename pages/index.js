@@ -26,7 +26,7 @@ export default function Home() {
         <title>#FindYourWayInTech | Repotecc</title>
         <meta name="description" content="Repotecc it's a tech community. We'll help you get started with creative and innovative skills."/>
         <meta name="robots" content="index, follow" />
-        <link rel="icon" href="assets/img/repotecc app logo.png" />
+        <link rel="icon" href="public/assets/img/repotecc app logo.png" />
         <meta name="robots" content="index, follow" />
         <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"/><link rel="canonical" href="https://repotecc.com/" />
       </Head>
