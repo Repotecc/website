@@ -8,6 +8,7 @@ class MyDocument extends Document {
       <Html>
         <Head>
           <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,800;1,400;1,500;1,700&display=swap" rel="stylesheet" />
+          <meta name="google-site-verification" content="eoCKL-RlUh2aEXEum8hdyMzEN1mC6Y4BMyw8ICuJyqQ" />
           <meta name="robots" content="index, follow" />
           <link rel="icon" href="assets/img/repotecc app logo.png" />
           <meta name="robots" content="index, follow" />
