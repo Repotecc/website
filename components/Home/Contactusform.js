@@ -28,7 +28,7 @@ class Contactusform extends React.Component{
 
     handleSubmit(e){
         e.preventDefault();
-        fetch('http://backend.repotecc.com/contactform.php', {
+        fetch('https://backend.repotecc.com/contactform.php', {
             method: "POST",
             body: JSON.stringify(this.state),
             headers: {
