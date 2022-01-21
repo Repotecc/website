@@ -101,7 +101,7 @@ class Contactusform extends React.Component{
 
                 <div  className="center">
                     <p className="text-mute">contact form disabled please kindly reach out to us via email info@repotecc.com.</p>
-                     <input name="contactus" value="submit disabled" type="submit" />
+//                      <input name="contactus" value="submit disabled" type="submit" />
                 
                 </div>
 
