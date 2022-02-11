@@ -28,7 +28,8 @@ class Contactusform extends React.Component{
 
     handleSubmit(e){
         e.preventDefault();
-        fetch('http://repotecc.com/contactus.php', {
+        fetch('http://backend.repotecc.com/contactform.php', {
+        // fetch('http://localhost/fluxcrm/test.php', {
             method: "POST",
             body: JSON.stringify(this.state),
             headers: {
@@ -40,6 +41,7 @@ class Contactusform extends React.Component{
         ).then((response)=> {
             if (response.status === 'success'){
                 toastr.success('Contact form submitted!', 'SUCCESS');
+                console.log("submitted");
                 //this.resetForm()
             } else if(response.status === 'fail'){
                 toastr.error('Submission failed', 'ERROR!');
@@ -49,7 +51,7 @@ class Contactusform extends React.Component{
 
     render(){
         return(
-            <form onSubmit={this.handleSubmit.bind(this)}  method="POST">
+            <form onSubmit={this.handleSubmit.bind(this)}>
                 <div  className="row">
                     <div  className="col-md">
                         <div  className="form-group">
@@ -101,7 +103,7 @@ class Contactusform extends React.Component{
 
                 <div  className="center">
                     <p className="text-mute">contact form disabled please kindly reach out to us via email info@repotecc.com.</p>
-                    {/* <input name="contactus" value="submit disabled" type="submit" /> */}
+                    {/* <input name="contactus" value="submit" type="submit" /> */}
                 
                 </div>
 

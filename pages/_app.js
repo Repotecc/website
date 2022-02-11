@@ -11,7 +11,7 @@ function MyApp({ Component, pageProps }) {
   useEffect(() => {
     import("bootstrap/dist/js/bootstrap.bundle");
   }, []);
-  return(
+    return(
 
         <>
         <Component {...pageProps} />
