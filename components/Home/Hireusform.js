@@ -34,7 +34,7 @@ class Hireusform extends React.Component{
 
     handleSubmit(e){
         e.preventDefault();
-        fetch('http://repotecc.com/hireus.php', {
+        fetch('http://localhost/fluxcrm/test.php', {
             method: "POST",
             body: JSON.stringify(this.state),
             headers: {

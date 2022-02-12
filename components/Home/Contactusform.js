@@ -28,7 +28,8 @@ class Contactusform extends React.Component{
 
     handleSubmit(e){
         e.preventDefault();
-        fetch('https://backend.repotecc.com/contactform.php', {
+        fetch('http://backend.repotecc.com/contactform.php', {
+        // fetch('http://localhost/test.php', {
             method: "POST",
             body: JSON.stringify(this.state),
             headers: {
@@ -40,6 +41,7 @@ class Contactusform extends React.Component{
         ).then((response)=> {
             if (response.status === 'success'){
                 toastr.success('Contact form submitted!', 'SUCCESS');
+                console.log("submitted");
                 //this.resetForm()
             } else if(response.status === 'fail'){
                 toastr.error('Submission failed', 'ERROR!');
@@ -49,7 +51,7 @@ class Contactusform extends React.Component{
 
     render(){
         return(
-            <form onSubmit={this.handleSubmit.bind(this)}  method="POST">
+            <form onSubmit={this.handleSubmit.bind(this)}>
                 <div  className="row">
                     <div  className="col-md">
                         <div  className="form-group">
