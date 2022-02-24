@@ -1,7 +1,12 @@
 module.exports = {
   reactStrictMode: true,
-  experimental: {
-    concurrentFeatures: true,
-    serverComponents: true,
-  }
+  async redirects() {
+    return [
+        {
+            source: '/config',
+            destination: '/target',
+            permanent: false,
+        }
+    ]
+}
 }
