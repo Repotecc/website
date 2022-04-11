@@ -16,6 +16,7 @@ import dayo from '../../public/assets/team/Temidayo Idowu Oguntimehin.jpg';
 import samuel from '../../public/assets/team/S A M U E L A Y O.jpg';
 import lateef from '../../public/assets/team/Habeeb Lateef.jpg';
 import kay from '../../public/assets/team/kay.jpg';
+import egorp from '../../public/assets/team/egorp.jpg';
 //import image9 from '../../public/assets/img/undraw_code_thinking_1jeh.png';
 
 
@@ -176,6 +177,16 @@ function Person() {
             linkedin: "https://www.linkedin.com/in/naijatechmentor",      
           },{
             id: 16,
+            name: "David Egorp",
+            img: egorp,
+            quote: "Technology is best",
+            position: "Mentor",
+            twitter: "https://twitter.com/D_rounz",
+            instagram: "",
+            linkedin: "https://ng.linkedin.com/in/egorp-david-b1728a19a",      
+          },
+          {
+            id: 17,
             name: "Habeeb Lateef",
             img: lateef,
             quote: "Technology is best when it brings people together",
