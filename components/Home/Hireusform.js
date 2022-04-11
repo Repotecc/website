@@ -131,8 +131,9 @@ class Hireusform extends React.Component{
             {/* <p>We'll get back to you via your work email after you submit this form.</p> */}
 
             <div  className="center">
-            <p className="text-mute">hire us form disabled please kindly reach out to us via email info@repotecc.com.</p>
-                {/* <input name="hireus" value="submit disabled" type="submit" /> */}
+            {/* <p className="text-mute">hire us form disabled please kindly reach out to us via email info@repotecc.com.</p> */}
+                <br />
+                <input name="hireus" value="submit disabled" type="submit" disabled />
             
             </div>
 
