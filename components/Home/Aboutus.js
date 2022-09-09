@@ -26,7 +26,7 @@ function Aboutus() {
                        <br /> <br />
                       <div  className="row">
                           <div  className="col">
-                              <h1><b>100+</b></h1>
+                              <h1><b>3000+</b></h1>
                               <h5>People mentored</h5>
                           </div>
                           <div  className="col">
@@ -45,7 +45,7 @@ function Aboutus() {
                               <h5>Donations</h5>
                           </div>
                           <div  className="col">
-                              <h1><b>2</b></h1>
+                              <h1><b>3</b></h1>
                               <h5>Events</h5>
                           </div>
                           <div  className="col">
