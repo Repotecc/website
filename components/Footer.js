@@ -69,7 +69,7 @@ function Footer() {
                     <div className="col-md"><a href="#">Terms of Use</a></div>
                     <div className="col-md"><a href="#">Privacy Policy</a></div>
                     <div className="col-md-8 text-end">
-                        Copyright &copy; Repotecc 2022
+                        Copyright &copy; Repotecc 2023
                     </div>
                 </div>
             </div>
