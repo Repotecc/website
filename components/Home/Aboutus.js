@@ -26,7 +26,7 @@ function Aboutus() {
                        <br /> <br />
                       <div  className="row">
                           <div  className="col">
-                              <h1><b>3000+</b></h1>
+                              <h1><b>5000+</b></h1>
                               <h5>People mentored</h5>
                           </div>
                           <div  className="col">
