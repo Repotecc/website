@@ -67,7 +67,7 @@ function Footer() {
               <br />
               <div className="row">
                   <div className="col-md"><a href="#">Terms of Use</a></div>
-                  <div className="col-md"><a href="#">Privacy Policy</a></div>
+                  <div className="col-md"><Link href="/privacy-policy">Privacy Policy</Link></div>
                   <div className="col-md-8 text-end">
                       Copyright &copy; Repotecc {year}
                   </div>
