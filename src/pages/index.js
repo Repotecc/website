@@ -13,7 +13,7 @@ import Workshops from '../../components/Home/Workshops';
 import Partners from '../../components/Home/Partners';
 import Contactus from '../../components/Home/Contactus';
 // import PageNotFound from './components/404-page';
-import Shop from '../../components/Home/Shop';
+// import Shop from '../../components/Home/Shop';
 import Subscriber from '../../components/Home/Subcriber';
 import Footer from '../../components/Footer';
 
