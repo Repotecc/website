@@ -1,21 +1,21 @@
 import Head from 'next/head'
-import '../styles/Home.module.css'
+import '../../src/styles/Home.module.css'
 
 
 
-import Navbar from '../components/Navbar';
-import Mainone from '../components/Home/Mainone';
+import Navbar from '../../components/Navbar';
+import Mainone from '../../components/Home/Mainone';
 // import reportWebVitals from './reportWebVitals';
-import Whyjoinus from '../components/Home/Whyjoinus';
-import Hireus from '../components/Home/Hireus';
-import Aboutus from '../components/Home/Aboutus';
-import Workshops from '../components/Home/Workshops';
-import Partners from '../components/Home/Partners';
-import Contactus from '../components/Home/Contactus';
+import Whyjoinus from '../../components/Home/Whyjoinus';
+import Hireus from '../../components/Home/Hireus';
+import Aboutus from '../../components/Home/Aboutus';
+import Workshops from '../../components/Home/Workshops';
+import Partners from '../../components/Home/Partners';
+import Contactus from '../../components/Home/Contactus';
 // import PageNotFound from './components/404-page';
-import Shop from '../components/Home/Shop';
-import Subscriber from '../components/Home/Subcriber';
-import Footer from '../components/Footer';
+import Shop from '../../components/Home/Shop';
+import Subscriber from '../../components/Home/Subcriber';
+import Footer from '../../components/Footer';
 
 
 

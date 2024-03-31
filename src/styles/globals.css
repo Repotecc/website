@@ -11,12 +11,12 @@ Last change: 17/01/2021
 /* 
 @font-face {
   font-family: montserrat;
-  src: url(../public/assets/css/montserrat-regular-webfont.woff2);
+  src: url(../../public/assets/css/montserrat-regular-webfont.woff2);
 }
 
 @font-face {
   font-family: montserrat;
-  src: url(../public/assets/css/montserrat-bold-webfont.woff2);
+  src: url(../../public/assets/css/montserrat-bold-webfont.woff2);
   font-weight: bold;
 } */
 
@@ -283,7 +283,7 @@ nav {
 
 
 #email_subscribe{
-  background-image: url(../public/assets/img/undraw_code_thinking_1jeh.png);
+  background-image: url(../../public/assets/img/undraw_code_thinking_1jeh.png);
   background-size: cover;
 }
 .email-sub-circle {

@@ -4,10 +4,10 @@ import Head from 'next/head'
 
 
 
-import  '../styles/Team.module.css'
-import Person from '../components/Team/Person';
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
+import  '../../src/styles/Team.module.css'
+import Person from '../../components/Team/Person';
+import Navbar from '../../components/Navbar';
+import Footer from '../../components/Footer';
 
 
 
