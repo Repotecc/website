@@ -33,7 +33,7 @@ export default function Home() {
         <Hireus />
         <Aboutus />
         <Workshops />
-        <Shop />
+        {/* <Shop /> */}
         <Partners />
         <Contactus />
         <Subscriber />
