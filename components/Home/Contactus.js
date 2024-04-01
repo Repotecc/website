@@ -17,7 +17,7 @@ function Contactus() {
                    <br />
                   <div  className="contact-media center">
                       <ul>
-                          <li><a href="mailto:info@repotecc.com"><span  className="bi-envelope-fill"></span> repotecc@gmail.com</a></li>
+                          <li><a href="mailto:info@repotecc.com"><span  className="bi-envelope-fill"></span> info@repotecc.com</a></li>
                           <li><a href="tel:+2348176435747"><span  className="bi-telephone-fill"></span>+(234)817-643-5747</a></li>
                           <li><a href="https://twitter.com/RepoTecc" target="_blank" rel="noopener noreferrer"><span  className="bi-twitter"></span> RepoTecc</a></li>
                           <li><a href="https://instagram.com/repotecc" target="_blank" rel="noopener noreferrer"><span  className="bi-instagram"></span> repotecc</a></li>

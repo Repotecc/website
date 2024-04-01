@@ -211,7 +211,7 @@ export default function PrivacyPolicy() {
                         <p>If you have any questions about this Privacy Policy, You can contact us:</p>
                         <ul>
                             <li>
-                                <p>By email: repotecc@gmail.com</p>
+                                <p>By email: info@repotecc.com</p>
                             </li>
                             <li>
                                 <p>By phone number: +234 8176435747</p>
