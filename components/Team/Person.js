@@ -129,6 +129,16 @@ function Person() {
           },
           {
             id: 11,
+            name: "Edema Samuel",
+            img: edema,
+            quote: "Progress isn't just smarter machines, it's stronger connections between people.",
+            position: "Robotics Researcher",
+            twitter: "#",
+            instagram: "",
+            linkedin: "#",      
+          },
+          {
+            id: 12,
             name: "Adesanya Adebisi",
             img: adebisi,
             quote: "Design is the silent ambassador for your brand",
@@ -138,7 +148,7 @@ function Person() {
             linkedin: "https://www.linkedin.com/in/bi-news-61502a1ab",      
           },
           {
-            id: 12,
+            id: 13,
             name: "Oguntimehin Idowu Temidayo",
             img: dayo,
             quote: "Technology is best when it brings people together",
@@ -148,7 +158,7 @@ function Person() {
             linkedin: "https://www.linkedin.com/mwlite/in/oguntimehin-idowu-temidayo-1b275ab0",      
           },
           {
-            id: 13,
+            id: 14,
             name: "Oloruntoba Fasakin",
             img: toba,
             quote: "Keep preparing and working on yourself, opportunities will come, you don't wanna be unprepared in the face of opportunities",
@@ -158,7 +168,7 @@ function Person() {
             linkedin: "https://www.linkedin.com/in/fasakin-oloruntoba",      
           },
           {
-            id: 14,
+            id: 15,
             name: "Ayinla Samuel",
             img: samuel,
             quote: "Design is intelligence made visible",
@@ -168,7 +178,7 @@ function Person() {
             linkedin: "https://www.linkedin.com/in/samuel-ayinla-7635191a9",      
           },
           {
-            id: 15,
+            id: 16,
             name: "Kayode Ajayi",
             img: kay,
             quote: "We Can",
@@ -177,7 +187,7 @@ function Person() {
             instagram: "https://instagram.com/naijatechmentor",
             linkedin: "https://www.linkedin.com/in/naijatechmentor",      
           },{
-            id: 16,
+            id: 17,
             name: "David Egorp",
             img: egorp,
             quote: "Technology is best",
@@ -187,7 +197,7 @@ function Person() {
             linkedin: "https://ng.linkedin.com/in/egorp-david-b1728a19a",      
           },
           {
-            id: 17,
+            id: 18,
             name: "Habeeb Lateef",
             img: lateef,
             quote: "Technology is best when it brings people together",
@@ -195,16 +205,6 @@ function Person() {
             twitter: "https://twitter.com/devhabeeblateef",
             instagram: "",
             linkedin: "https://www.linkedin.com/in/habeeb-lateef-1507ba203",      
-          },
-          {
-            id: 18,
-            name: "Edema Samuel",
-            img: edema,
-            quote: "Progress isn't just smarter machines, it's stronger connections between people.",
-            position: "Robotics Researcher",
-            twitter: "#",
-            instagram: "",
-            linkedin: "#",      
           },
       ])
     return (
