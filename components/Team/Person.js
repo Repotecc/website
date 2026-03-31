@@ -17,6 +17,7 @@ import samuel from '../../public/assets/team/S A M U E L A Y O.jpg';
 import lateef from '../../public/assets/team/Habeeb Lateef.jpg';
 import kay from '../../public/assets/team/kay.jpg';
 import egorp from '../../public/assets/team/egorp.jpg';
+import edema from '../../public/assets/team/Edema Samuel.jpeg';
 //import image9 from '../../public/assets/img/undraw_code_thinking_1jeh.png';
 
 
@@ -194,6 +195,16 @@ function Person() {
             twitter: "https://twitter.com/devhabeeblateef",
             instagram: "",
             linkedin: "https://www.linkedin.com/in/habeeb-lateef-1507ba203",      
+          },
+          {
+            id: 18,
+            name: "Edema Samuel",
+            img: edema,
+            quote: "Progress isn't just smarter machines, it's stronger connections between people.",
+            position: "Robotics Researcher",
+            twitter: "#",
+            instagram: "",
+            linkedin: "#",      
           },
       ])
     return (
