@@ -131,7 +131,7 @@ function Person() {
             id: 11,
             name: "Edema Samuel",
             img: edema,
-            quote: "Progress isn't just smarter machines, it's stronger connections between people.",
+            quote: "Progress isn't just smarter machines, it's stronger connections between people",
             position: "Robotics Researcher",
             twitter: "#",
             instagram: "",
